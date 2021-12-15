@@ -14,7 +14,7 @@ public class Futbolista implements Comparable<Futbolista>{
 		this.edad=30;
 		this.posicion="delantero";}
 	
-	public int compareTo(Futbolista futbol) {
+	public int compareTo(Object futbol) {
 		return 0;}
 	
 	public boolean equals (Futbolista f) {
