@@ -1,3 +1,4 @@
+package futbol;
 public class Futbolista implements Comparable<Futbolista>{
 	private String nombre;
 	private int edad;
